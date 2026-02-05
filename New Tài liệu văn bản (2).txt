@@ -1,0 +1,22 @@
+Phần 1: lý do chọn kiến trúc REST thay vì SOAP
+	- Sử dụng JSON dễ đọc hơn
+	- Ít tiêu chuẩn và linh hoạt hơn
+	- Hiệu năng nhẹ và nhanh hơn
+	
+Phần 2: Giả sử bạn cần quản lý tài nguyên là "Nhân viên" (Employee). Hãy liệt kê URL (Endpoint) và HTTP Method cho 5 hành động sau (tuân thủ quy tắc danh từ, số nhiều, không dùng động từ trên URL):
+
+1. Lấy danh sách tất cả nhân viên.
+GET/employees
+
+2. Lấy thông tin một nhân viên theo ID.
+GET/employees/{id}
+
+3. Tạo mới một nhân viên.
+POST/employees
+
+4. Cập nhật thông tin nhân viên.
+PUT/employees/{id}
+PATCH/employees/{id}
+
+5. Xóa một nhân viên.
+DELETE/employees/{id}
